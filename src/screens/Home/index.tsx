@@ -1,10 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import { View, Image, TextInput, Text, TouchableOpacity } from 'react-native';
-import { styles } from './styles';
+import { styles } from './style';
 import { useNavigation } from '@react-navigation/native';
 
-export default function Login() {
-  const navigation = useNavigation();
+export default function Home() {
 
   return (
     <View style={styles.container}>
@@ -14,7 +13,7 @@ export default function Login() {
         style={styles.image}
       />
 
-      <StatusBar style="auto" />
+    
 
       
     

@@ -14,7 +14,6 @@ export default function Login() {
         style={styles.image}
       />
 
-      <StatusBar style="auto" />
 
       <View style={styles.form}>{/* INPUT 1 */}
         <Text style={styles.texto}>E-mail:</Text>
@@ -44,8 +43,8 @@ export default function Login() {
         </TouchableOpacity>
 
         <TouchableOpacity 
-        style={styles.botao}  
-        onPress={() => navigation.navigate('Registrar')}>
+        style={styles.botao}>  
+        {/*</View>onPress={() => navigation.navigate('Registrar')} */}
              <Text style={styles.textoBotao}>Registrar</Text>
         </TouchableOpacity>
       </View>
